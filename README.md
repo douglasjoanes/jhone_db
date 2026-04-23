@@ -44,7 +44,7 @@ Model::setConnection($pdo);
 ````
 
 ## 📖 Guia de Uso
-# Definindo um Model
+## Definindo um Model
 
 ```bash
 namespace App\Models;
@@ -59,7 +59,7 @@ class User extends Model
 }
 ````
 
-# Consultas com Query Builder
+## Consultas com Query Builder
 
 ```bash
 // Buscar todos os usuários ativos
@@ -72,7 +72,7 @@ $users = User::query()
 $user = User::find(1);
 ````
 
-# Inserção e Atualização (Active Record)
+## Inserção e Atualização (Active Record)
 
 ```bash
 // Buscar todos os usuários ativos
@@ -85,7 +85,7 @@ $users = User::query()
 $user = User::find(1);
 ````
 
-# Exclusão
+## Exclusão
 
 ```bash
 $user = User::find(1);
