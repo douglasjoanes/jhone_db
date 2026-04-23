@@ -20,3 +20,25 @@ Adicione o repositório ao seu arquivo `composer.json` ou instale via terminal (
 
 ```bash
 composer require douglas-joanes/jhonestack-db
+````
+
+## Configuração Inicial
+Para começar, inicialize a conexão e injete-a no Model base da sua aplicação:
+
+````bash
+use Jhonestack\Database\DatabaseFactory;
+use Jhonestack\Database\Model;
+
+$config = [
+    'driver'   => 'mysql',
+    'host'     => 'localhost',
+    'port'     => '3306',
+    'database' => 'nome_do_banco',
+    'username' => 'usuario',
+    'password' => 'senha',
+    'charset'  => 'utf8mb4'
+];
+
+$pdo = DatabaseFactory::create($config);
+Model::setConnection($pdo);
+````
