@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PHP Version](https://img.shields.io/badge/php-%3E%3D%208.1-8892bf.svg)](https://php.net)
 
-O **Jhonestack Database** é um componente de abstração de banco de dados (ORM) minimalista, extraído do ecossistema **Jhonestack Core**. Ele foi desenvolvido para ser leve, independente e seguro, permitindo que você utilize os padrões *Active Record* e *Query Builder* em qualquer projeto PHP.
+O **Jhone Db** é um componente de abstração de banco de dados (ORM) minimalista, extraído do ecossistema **Jhonestack Core**. Ele foi desenvolvido para ser leve, independente e seguro, permitindo que você utilize os padrões *Active Record* e *Query Builder* em qualquer projeto PHP.
 
 ## 🚀 Recursos Principais
 
